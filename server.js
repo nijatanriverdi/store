@@ -73,7 +73,6 @@ const store = [
 const express = require('express');
 const app = express();
 
-
 app.get("/store", function (req, res) {
     res.json(store);
   });
